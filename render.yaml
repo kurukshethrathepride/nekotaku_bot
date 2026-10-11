@@ -15,7 +15,7 @@ services:
         value: 25
 
       - key: BOT_TOKEN
-        sync: false
+        value: 8604265213:AAHSVh2dtKGL28c7-KUVSAv-71mfF_3pL-0
 
       - key: FLOOD_RATE
         value: 5
@@ -24,16 +24,16 @@ services:
         value: 5
 
       - key: OWNER_ID
-        sync: false
+        sync: 7734968911
 
       - key: LOG_CHANNEL_ID
-        sync: false
+        sync: -1003744652244
 
       - key: SPAM_MUTE_DURATION
         value: 600
 
       - key: BOT_USERNAME
-        sync: false
+        sync: test1botg_bot
 
       - key: DATABASE_URL
         sync: postgresql://pyro:UUqixK4z3GpS1dzBcQtHZsvTbmCKKGBT@dpg-db4bc32jnfac73arl2j0-a/tgbot_db_x64i
