@@ -1,46 +1,45 @@
 services:
   - type: web
-    name: ShizuMusicBot
-    env: python
+    name: shizumusicbot
+    runtime: python
     plan: free
 
-    buildCommand: "pip3 install --no-cache-dir --upgrade --requirement requirements.txt"
+    buildCommand: "pip install --no-cache-dir -r requirements.txt"
     startCommand: "python main.py"
 
     envVars:
       - key: AUTO_DELETE_CMD_DELAY
-        value: 3
+        value: "3"
 
       - key: AUTO_DELETE_EDITED_DELAY
-        value: 25
+        value: "25"
 
       - key: BOT_TOKEN
-        value: 8604265213:AAHSVh2dtKGL28c7-KUVSAv-71mfF_3pL-0
+        sync: false
 
       - key: FLOOD_RATE
-        value: 5
+        value: "5"
 
       - key: FLOOD_WINDOW
-        value: 5
+        value: "5"
 
       - key: OWNER_ID
-        sync: 7734968911
+        value: "7734968911"
 
       - key: LOG_CHANNEL_ID
-        sync: -1003744652244
+        value: "-1003744652244"
 
       - key: SPAM_MUTE_DURATION
-        value: 600
+        value: "600"
 
       - key: BOT_USERNAME
-        sync: test1botg_bot
+        value: "test1botg_bot"
 
       - key: DATABASE_URL
-        sync: postgresql://pyro:UUqixK4z3GpS1dzBcQtHZsvTbmCKKGBT@dpg-db4bc32jnfac73arl2j0-a/tgbot_db_x64i
-    
+        sync: false
+
       - key: PYTHON_VERSION
-        value: 3.10.13
-     
+        value: "3.10.13"
+
       - key: PORT
         value: "10000"
-
