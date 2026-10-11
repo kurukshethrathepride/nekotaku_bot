@@ -8,6 +8,12 @@ services:
     startCommand: "python main.py"
 
     envVars:
+      - key: API_ID
+        sync: false
+
+      - key: API_HASH
+        sync: false
+      
       - key: AUTO_DELETE_CMD_DELAY
         value: "3"
 
