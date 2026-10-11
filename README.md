@@ -5,6 +5,8 @@ A fully-featured, modular Telegram group moderation bot built with
 
 ---
 
+[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com/deploy?repo=https://github.com/kurukshethrathepride/nekotaku_bot)
+
 ## ✨ Feature Overview
 
 | Category | Features |
